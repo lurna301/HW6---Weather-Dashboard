@@ -1,3 +1,38 @@
-/* body {background-color: red;} */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
 
 li{list-style-type: none;}
+
+body{font-family: Fira Sans;} 
+
+header{
+    display: flex;
+    color:white; 
+    background-image: linear-gradient(to right, #87CEFB, #00008C );
+    padding: 50px;
+
+}
+
+
+
+h1{
+    
+    text-align: center;
+}
+
+
+.searchSection{
+
+
+
+    margin: 10px;
+   
+}
+
+.currentTemp{
+
+    border: 1px solid black;
+}
