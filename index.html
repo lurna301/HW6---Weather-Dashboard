@@ -7,7 +7,7 @@
   <title>Weather Dashboard</title>
  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
     rel="stylesheet" /> 
-  <!-- <link rel="stylesheet" href="./assets/css/jass.css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 
@@ -38,8 +38,12 @@
 <!-- container to hold results from city search-->
   <div class="container">
 
-    <div class="currentTemp">
-  <h2><span id="city">City</span> <span id="date">Current Date</span></h2>
+    <div class="currentTemp" id="currentTemp">
+  <div>
+    <span id="city">City</span> <span id="date"></span></h2>
+
+  </div>
+  <div id="time"></div>
   
   <ul class="weatherInfo">
   <li>Temp:<span id="tempInfo"></span> </li>
@@ -60,6 +64,8 @@
 
   </div>
 </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
   <script src="assets/script.js"></script>
 </body>
 
