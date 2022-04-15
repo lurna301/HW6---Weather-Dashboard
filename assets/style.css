@@ -1,34 +1,42 @@
+:root{
+
+    --spacing: 10px
+}
+
 *{
     box-sizing: border-box;
     margin:0;
     padding:0;
 }
 
-li{list-style-type: none;}
 
-body{font-family: Fira Sans;} 
+
+
 
 header{
-    display: flex;
+    
     color:white; 
     background-image: linear-gradient(to right, #87CEFB, #00008C );
     padding: 50px;
 
-}
-
-
-
-h1{
-    
     text-align: center;
+
 }
 
+
+
+    
+
+.d-flex{
+
+    flex-direction: column;
+}
 
 .searchSection{
 
 
 
-    margin: 10px;
+    
    
 }
 
@@ -36,3 +44,57 @@ h1{
 
     border: 1px solid black;
 }
+
+#searchContainer{
+
+    
+   
+    background-color: #87CEFB;
+    
+}
+
+
+button{
+
+   text-transform: capitalize;
+   
+    
+}
+
+#button-container{
+
+    padding-top: var(--spacing);
+    border-top: 2px solid gray;
+
+}
+
+#searchContainer,
+#searchInput,
+#button-container button {
+  margin-bottom: var(--spacing);
+}
+
+#weather-day-container{
+
+    display: flex;
+    flex-direction: column;
+   
+
+
+}
+
+.hide {
+    display: none;
+  }
+  
+  .favorable {
+    background-color: green;
+  }
+  
+  .moderate {
+    background-color: yellow;
+  }
+  
+  .severe {
+    background-color: red;
+  }
